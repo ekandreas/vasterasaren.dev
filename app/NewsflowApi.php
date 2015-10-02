@@ -22,7 +22,7 @@ class NewsflowApi
         
         $json = file_get_contents($urlApi);
         $response = json_decode($json);
-        Cache::put('Newsflow.posts', $response, 1);
+        Cache::forever('Newsflow.posts', $response);
 
         return $response;
     }
