@@ -1,4 +1,6 @@
     <div class="row">
-        <h1><a href="/" style="color:#333349">Västeråsaren</a></h1>
-        <hr/>
+    	<div class="col-xs-12 text-center">
+	        <h1><a href="/" style="color:#333349;font-size:65px;">Västeråsaren</a></h1>
+    	    <hr/>
+        </div>
     </div>
