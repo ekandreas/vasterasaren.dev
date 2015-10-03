@@ -22,5 +22,13 @@
             } else {
                 $('.mas-container').removeClass('mas-container').addClass('row');
             }            
+
     	});
+
+        $(window).scroll(function () { 
+            if ( $(window).scrollTop <= 30 ) {
+                window.location.reload();
+            }
+        });
+        
 	</script>
