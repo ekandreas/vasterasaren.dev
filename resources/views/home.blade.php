@@ -5,6 +5,8 @@
 
 <body>
 
+@include('includes.google-analytics')
+
 <div class="wrapper">       
     <div class="container">        
         
