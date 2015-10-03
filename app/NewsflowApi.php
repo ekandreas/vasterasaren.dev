@@ -6,7 +6,6 @@ use Cache;
 
 class NewsflowApi
 {
-
     public function data()
     {
         return Cache::get('Newsflow.posts') ?: $this->update();
@@ -16,7 +15,7 @@ class NewsflowApi
     {
         $urlApi = env('NEWSFLOW_API', '');
 
-        if( empty( $urlApi ) ) {
+        if (empty($urlApi)) {
             return [];
         }
         
@@ -26,5 +25,4 @@ class NewsflowApi
 
         return $response;
     }
-
 }
